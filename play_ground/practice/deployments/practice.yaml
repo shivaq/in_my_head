@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: in_my_head
+  labels:
+    app: in_my_head
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: in_my_head
+  template:
+    metadata:
+      labels:
+        app: in_my_head
+    spec:
+      containers:
+        - name: in_my_head
+          image: shivaq/start_in_my_head
+          ports:
+          - containerPort: 8888
