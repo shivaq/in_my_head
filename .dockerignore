@@ -1,0 +1,15 @@
+README.md
+
+# Git
+.git/
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+
+# DB
+characters.sql
+
+# Test
+*test.go

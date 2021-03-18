@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="icon" href="../images/common/favicon.png" type="image/png">
+    <script src="../js/index_test.js"></script>
+    <title>みんな頭の中</title>
+        <style>
+            h1 {
+                font-size: 3em;
+                margin-top: 0.5em;
+            }
+
+            .banner {
+                max-width: 20%;
+            }
+
+            .main_introduction {
+            background-color: #fff;
+            font-size: 1.5em;
+            padding: 10px;
+        }
+        </style>
+</head>
+<body>
+    <!-- オブジェクトをつけたり消したりテスト -->
+    <div class="desktop">Desktop</div>
+    <div class="mobile">Mobile</div>
+    <div class="print">Print</div>
+    <header>
+        <nav>
+            <ul>
+            <li><a class="three_elements" href="/">Home</a></li>
+            <li><a class="three_elements" href="../html/characters.html">Character</a></li>
+            <li><a class="three_elements" href="../html/emotions.html">Emotions</a></li>
+            <li><a class="three_elements" href="../html/events.html">Events</a></li>
+            <li><a class="three_elements" href="../html/contact.html">Contact</a></li>
+            <li><a class="to_the_world" href="../html/imagine.html">世界へ</a></li>
+            <li><a href="../html/html_practice.html">HTMLの勉強</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+        <!-- <aside><img src="../images/characters/blond_woman_bob_collar2.png" class="banner" alt="顔"></aside> -->
+        <aside><img src="../images/characters/blond_woman_bob_collar2.png" class="banner" alt="顔"></aside>
+        <h1 class="main_title">(Universe)In My Head 〜みんな頭の中〜</h1>
+        <h2 class="hello" id="top">こんにちは</h2>
+        <div class="main_introduction">
+            <p>あなただけがアクセスできる、あなたの中の宇宙。</p>
+            <p>爆誕</p>
+            <p>再訪</p>
+            <p>滅却</p>
+            <br>
+            <br>
+            <a href="../html/imagine.html">ここはなに？</a>
+                {{ . }}
+        </div>
+        </article>
+    </main>
+
+
+    <p><a href="#top">Top of page</a></p>
+
+    <footer>
+        <nav class="bottom_links">
+            <a class="three_elements" href="/">Home</a>
+            <a class="three_elements" href="../html/characters.html">Character</a>
+            <a class="three_elements" href="../html/emotions.html">Emotions</a>
+            <a class="three_elements" href="../html/events.html">Events</a>
+            <a class="three_elements" href="../html/contact.html">Contact</a>
+            <a class="to_the_world" href="../html/imagine.html">世界へ</a>
+        </nav>
+    </footer>
+</body>
+</html>

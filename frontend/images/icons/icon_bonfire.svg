@@ -1,0 +1,23 @@
+<svg width="588" height="596" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="598" width="590" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m308.75,4.45342c-31,29 -87,109 -113,145c-26,36 -60,179 -51,229c9,50 55,144 132,144c77,0 153,-92 153,-141c0,-49 3,-202 -64,-229c-67,-27 -26,-177 -57,-148z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#f43322"/>
+  <path stroke="#000" id="svg_2" d="m301.21539,131.51638c-19.09764,21.6625 -53.59659,81.42111 -69.61397,108.31249c-16.01737,26.89138 -36.96317,133.7099 -31.41869,171.05904c5.54448,37.34913 33.8829,107.56551 81.31897,107.56551c47.43607,0 94.25608,-68.72241 94.25608,-105.32456c0,-36.60215 1.84816,-150.8905 -39.42738,-171.05904c-41.27554,-20.16853 -16.01737,-132.21594 -35.11501,-110.55344z" stroke-opacity="null" stroke-width="1.5" fill="#ffc30f"/>
+  <rect stroke="#000" id="svg_3" height="64" width="196.00001" y="403.45341" x="0.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_4" height="64" width="196.00001" y="404.45341" x="196.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_5" height="64" width="196.00001" y="467.45341" x="97.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_6" height="64" width="194.00001" y="405.45341" x="391.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_7" height="64" width="196.00001" y="467.45341" x="294.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_8" height="64" width="95" y="467.45341" x="490.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_9" height="64" width="96" y="466.45341" x="1.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_10" height="64" width="196.00001" y="531.45341" x="55.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_11" height="64" width="196.00001" y="531.45341" x="252.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_12" height="64" width="140.00001" y="531.45341" x="446.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+  <rect stroke="#000" id="svg_13" height="64" width="52" y="530.45341" x="2.75" stroke-opacity="null" stroke-width="1.5" fill="#773d05"/>
+ </g>
+</svg>

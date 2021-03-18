@@ -1,0 +1,355 @@
+:root{
+    /* top title */
+    --link-image-size: 90px;
+    --link-font-size: 30px;
+
+    /* emotion rank */
+    --emotion-rank-img-height: 30px;
+    --current-charactor-img-height: 200px;
+    --current-charactor-font-size: 30px;
+
+    /* event container */
+    --event-container-width: 960px;
+    /* event edit */
+    --character_edit_div-width: 64px;
+    /* event characters */
+    --event-character-section-width: 896px;
+    --event-character-height: 100px;
+    --event-character-width: 100px;
+    --event-character-font-size: 12px;
+
+    /* main links */
+    --link-btn-width: 400px;
+    --link-btn-height: 100px;
+    --link-img-width: 60px;
+
+    --link-btn-color-normal: #170e3a;
+    --link-font-color-normal: #c6bcbc;
+
+    /* sublinks */
+    --sub-link-btn-width: 400px;
+    --sub-link-btn-height: 60px;
+    --sub-link-img-width: 60px;
+
+    --sub-link-btn-color-normal: black;
+    --sub-link-font-color-normal: white;
+    --sub-link-font-size: 15px;
+
+    /* display border for debug only */
+    /* border-style: var(--border-style-for-debug); */
+    --border-style-for-debug: dashed;
+}
+
+body {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    max-width: 960px;
+    margin-bottom: 120px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*******************
+* Current story
+*******************/
+.current_story_block{
+    height: var(--link-image-size);
+    width: fit-content;
+
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.current_story_image {
+    margin-right: 10px;
+    height: var(--link-image-size);
+    width: auto;
+
+    /* align img and texts */
+    vertical-align: middle;
+
+}
+
+#current_story_title {
+    font-size: var(--link-font-size);
+    color: #603813;
+    padding: 15px;
+}
+
+
+/*******************
+* Emotion rank
+*******************/
+.emotion_rank_block{
+    height: var(--emotion-rank-img-height);
+    /* center contents horizontally */
+    width: fit-content;
+    margin: auto;
+}
+.emotion_rank_img {
+    /* Image を横に並べるために */
+    float: left;
+}
+
+.emotion_rank_img > img{
+    height: var(--emotion-rank-img-height);
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+/*******************
+* Event time
+*******************/
+.event_time_label_section {
+    background-color: blue;
+    color: white;
+}
+.event_character_label_section {
+    background-color: aqua;
+    color: black;
+}
+/*******************
+* Character emotions
+*******************/
+.event_character_emotion_img {
+    width: 16px;
+}
+/*******************
+* Event characters
+*******************/
+.event_container {
+    /* border-style: var(--border-style-for-debug); */
+    background-color: #170e3a;
+    overflow: auto;
+    margin-top: 32px;
+    width: var(--event-container-width);
+}
+
+.event_character_section{
+    /* border-style: var(--border-style-for-debug); */
+    overflow: auto;
+    float: left;
+    margin-top: 8px;
+
+    width: var(--event-character-section-width);
+    max-height: var(--event-character-section-width);
+    background-color: #c6bcbc;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: left;
+}
+
+.event_character_div{
+    /* Image を横に並べるために */
+    float: left;
+    max-width: var(--event-character-width);
+    margin-right:64px;
+}
+
+.event_character_div:hover {
+    background-color: aqua;
+}
+
+.delete_person_icon {
+    display: none;
+    margin-top: 9px;
+}
+
+.event_character_img {
+    /* border-style: var(--border-style-for-debug); */
+
+    height: auto;
+    width: var(--event-character-width);
+    display: block;
+    margin: auto;
+}
+
+.event_character_name {
+    /* border-style: var(--border-style-for-debug); */
+
+    text-align: center;
+    font-size: var(--event-charactor-font-size);
+}
+
+/*******************
+* Edit characters
+*******************/
+.edit_character_section, .add_character_section {
+    float: right;
+    width: var(--character_edit_div-width);
+    margin-top: 8px;
+}
+
+.edit_character_div, .add_character_div {
+    float: right;
+    background-color: moccasin;
+    height: max-content;
+    align-content: center;
+}
+
+.edit_character_div > img, .add_character_div > img {
+    width: var(--character_edit_div-width);
+}
+
+/*******************
+* Event text
+*******************/
+.event_text {
+    clear: both;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+/*******************
+* Current character
+*******************/
+.current_character_block {
+    /* display border for debug only */
+    /* border-style: var(--border-style-for-debug); */
+
+    /* clear float */
+    clear: both;
+    padding-top: 50px;
+
+    width: fit-content;
+    margin: auto;
+}
+
+.current_character_img {
+    height: var(--current-charactor-img-height);
+    width: auto;
+}
+
+.current_character_text {
+    text-align: center;
+    font-size: var(--current-charactor-font-size);
+}
+
+
+
+
+
+
+/*******************
+* main links
+*******************/
+.main_link_button {
+    border-style: solid ;
+    background-color: var(--link-btn-color-normal);
+    border-color: var(--link-btn-color-normal);
+    border-radius: 8px;
+    border-width: 4px;
+
+    height: var(--link-btn-height);
+    max-width: var(--link-btn-width);
+
+    display: flex; /* flex box */
+    align-items: center; /* flex box 内の要素を 中央揃え*/
+    margin: auto;
+    margin-top: 9px;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main_link_img {
+    height: auto;
+    width: var(--link-img-width);
+    margin: 10px;
+
+}
+
+.main_link_text {
+    font-size: var(--link-font-size);
+    color: var(--link-font-color-normal);
+    padding: 15px;
+}
+
+.main_link_button:hover {
+    background-color: white;
+}
+
+.main_link_text:hover {
+    color:black;
+}
+
+/*******************
+* sub links
+*******************/
+.sublinks {
+    width: fit-content;
+    margin: auto;
+}
+.sub_link_button {
+    border-style: solid ;
+    background-color: var(--sub-link-btn-color-normal);
+    border-color: var(--sub-link-btn-color-normal);
+    border-radius: 8px;
+    border-width: 4px;
+
+    float: left;
+
+
+    height: var(--sub-link-btn-height);
+    max-width: var(--sub-link-btn-width);
+
+    display: flex; /* flex box */
+    align-items: center; /* flex box 内の要素を 中央揃え*/
+
+    margin-top: 50px;
+    margin-left: 10px;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sub_link_img {
+    height: auto;
+    width: var(--sub-link-img-width);
+    margin: 10px;
+
+}
+
+.sub_link_text {
+    font-size: var(--sub-link-font-size);
+    color: var(--sub-link-font-color-normal);
+    padding: 15px;
+}
+
+.sub_link_button:hover {
+    background-color: white;
+}
+
+.sub_link_text:hover {
+    color:black;
+}

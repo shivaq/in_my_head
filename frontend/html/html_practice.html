@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/practice_css.css" type="text/css">
+    <link rel="icon" href="../images/common/favicon.png" type="image/png">
+    <script src="../js/index_test.js"></script>
+    <title>テストだお</title>
+</head>
+<body>
+    <!-- header ヘッダ要素やa logo, a search form, an author name -->
+    <header>
+        <!--  nav  →リンクが有るセクション-->
+        <nav>
+            <ul>
+                <li><a class="three_elements" href="/">Home</a></li>
+                <li><a class="three_elements" href="../html/characters.html">Character</a></li>
+                <li><a class="three_elements" href="../html/emotions.html">Emotions</a></li>
+                <li><a class="three_elements" href="../html/events.html">Events</a></li>
+                <li><a class="three_elements" href="../html/contact.html">Contact</a></li>
+                <li><a class="to_the_world" href="../html/imagine.html">世界へ</a></li>
+                <li><a href="../html/html_practice.html">HTMLの勉強</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main →メイントピックやメイン機能と関連するコンテンツのエリア-->
+    <main>
+        <!-- article 内容が単体で完結するセクション -->
+        <article>
+            <!-- aside  メインコンテンツと間接的に関係のあるコンテンツ-->
+            <aside><img src="../images/characters/blond_woman_bob_collar2.png" class="banner" alt="顔"></aside>
+            <h1 class="main_title">(Universe)In My Head 〜みんな頭の中〜</h1>
+            <h2 class="hello" id="top">こんにちは</h2>
+            <!-- div コンテナ。CSS の影響対象の人まとまりとして利用 -->
+            <div class="main_introduction">
+                <p>あなただけがアクセスできる、あなたの中の宇宙。</p>
+                <!-- mark ハイライト。色はCSS で変えられる -->
+                <p><mark>あなたの記憶の中の感情を</mark>発見することができるのはあなただけ</p>
+                <!-- time 見た目は変わらない 。サーチエンジンが見つけることができる機械読み込み可能値を指定できる-->
+                <p>次に怒るのは<time>10:00</time>頃です</p>
+                <p>次に喜ぶのは<time datetime="2020-12-24">クリスマス・イブ</time>です</p>
+                <p>俺の怒りはこんくらいだ！</p>
+                あなたの怒り →<meter value="6" min="0" max="10">6 out of 10</meter>
+                <p>超サイヤ人に必要な怒り</p>
+                テメーは俺を怒らせた。。。<progress value="30" max="100"></progress>
+                <!-- section 独立した章を表す。コンテンツじゃなくレイアウト目的なら div を使え -->
+                <section>
+                <p>爆誕</p>
+                </section>
+                <p>再訪</p>
+                <p>滅却</p>
+                <!-- figure コンテンツに関連する図などに使用 -->
+                <p>あの時のあの人の感情をイタコする</p>
+                <figure>
+                    <img src="../images/emotions/anger_to_left.svg" alt="">
+                    <figcaption>Fig.1 - 怒り</figcaption>
+                </figure>
+                <br>
+                <!-- IE と Firefox では機能しない -->
+                <details>
+                    <summary>
+                        つまり、何をするのだ？
+                    </summary>
+                    <p>自分の記憶から、自分の感情について知っていく</p>
+
+                </details>
+                <br>
+                <a href="../html/imagine.html">ここはなに？</a>
+                {{ . }}
+            </div>
+        </article>
+    </main>
+    <!-- footer セクションの Author 情報、コピーライト情報、リンクなどを記述 -->
+    <footer>
+        <nav class="bottom_links">
+            <a class="three_elements" href="/">Home</a>
+            <a class="three_elements" href="../html/characters.html">Character</a>
+            <a class="three_elements" href="../html/emotions.html">Emotions</a>
+            <a class="three_elements" href="../html/events.html">Events</a>
+            <a class="three_elements" href="../html/contact.html">Contact</a>
+            <a class="to_the_world" href="../html/imagine.html">世界へ</a>
+        </nav>
+        <address class="mailto" >
+            Created by <a href="mailto:shivaq777@gmail.com">柴田康晃</a><br>
+            Visit us at: <br>
+            コスモハイツ河原町
+        </address>
+    </footer>
+</body>
+</html>
